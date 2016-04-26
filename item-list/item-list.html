@@ -1,3 +1,6 @@
 <ul>
-  <li></li>
+  <li ng-repeat="item in items.itemList | filter: {category: 'bad'}">
+    <p>{{item.name}}</p>
+    <p></p>
+  </li>
 </ul>

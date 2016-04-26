@@ -5,8 +5,8 @@
     .module('shop')
     .controller('HomeController', HomeController);
 
-  function HomeController(search) {
-      
+  function HomeController() {
+
   }
 
 })();

@@ -28,7 +28,9 @@
       })
       .state('item-list', {
         url: '/item-list',
-        templateUrl: 'item-list/item-list.html'
+        templateUrl: 'item-list/item-list.html',
+        controller: 'ItemListController',
+        controllerAs: 'items'
       })
       .state('search-results', {
         url: '/search',
