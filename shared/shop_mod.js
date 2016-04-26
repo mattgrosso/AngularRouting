@@ -34,7 +34,9 @@
       })
       .state('search-results', {
         url: '/search',
-        templateUrl: 'search-results/search-results.html'
+        templateUrl: 'search-results/search-results.html',
+        controller: 'SearchController',
+        controllerAs: 'search'
       })
       .state('cart', {
         url: '/cart',
