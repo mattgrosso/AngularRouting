@@ -3,7 +3,7 @@
     <head>
 
         <meta charset='utf-8'>
-        <title>Buy Things Here</title>
+        <title>Buy Matts Here</title>
         <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
 
     </head>
@@ -12,18 +12,17 @@
         <main>
 
             <header>
-              <h1>Matt's Shop</h1>
+              <h1>Matts Shop</h1>
               <nav>
                 <ul>
-                  <li><a>Home</a></li>
-                  <li><a>Categories</a></li>
-                  <li><a>Shopping Cart</a></li>
+                  <li><a ui-sref='home'>Home</a></li>
+                  <li><a ui-sref='categories'>Categories</a></li>
+                  <li><a ui-sref='cart'>Shopping Cart</a></li>
                 </ul>
               </nav>
             </header>
 
-            <section ui-view>
-            </section>
+            <section ui-view></section>
 
             <footer>&copy Matt Grosso 2016</footer>
 
@@ -31,7 +30,12 @@
 
         <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
         <script src='http://angular-ui.github.io/ui-router/release/angular-ui-router.js'></script>
-        <script src='shared/zoo.module.js'></script>
+        <script src='shared/shop_mod.js'></script>
+        <script src='home/home_ctrl.js'></script>
+        <script src='shared/inventory_service.js'></script>
+
+
+
 
     </body>
 </html>
