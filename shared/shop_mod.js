@@ -32,7 +32,7 @@
         controller: 'ItemListController',
         controllerAs: 'items'
       })
-      .state('search-results', {
+      .state('search', {
         url: '/search',
         templateUrl: 'search-results/search-results.html',
         controller: 'SearchController',
